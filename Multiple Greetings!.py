@@ -1,6 +1,5 @@
-
-
 def say_hello_with_name(name, num_times):
+    ''' greets name num_times '''
     for _ in range(num_times):
         print(f"Hello, {name}!")
 
